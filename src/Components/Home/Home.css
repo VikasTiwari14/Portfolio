@@ -1,0 +1,45 @@
+.Text-1{
+    font-size: 25px;
+}
+
+.Text-2{
+    font-size: 75px;
+}
+
+.Text-3{
+    font-size: 30px;
+}
+
+#Home{
+    height: 60vh;
+    display: flex;
+    align-items: center;
+    padding: 0rem 10rem;
+    justify-content: space-between;
+}
+
+.Highlighted{
+    color: #ff9a00;
+}
+
+.HomeLeft > div{
+    padding: 6px 0;
+}
+
+.HireBtn{
+    background-color: transparent !important;
+    color: #ff9a00 !important;
+    border: 2px solid #ff9a00 !important;
+    box-shadow: none;
+    margin: 15px 0 !important;
+}
+
+.HireBtn:hover{
+    background-color: #ff9a00 !important;
+    color: #DDF6ED !important;
+}
+
+.HomeRight{
+    display: flex;
+    flex-direction: row-reverse;
+}

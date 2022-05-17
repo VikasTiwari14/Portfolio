@@ -1,0 +1,32 @@
+#Skills{
+    padding: 0 10rem 3rem;
+}
+
+.SkillsDown{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 0 60px;
+}
+
+.SkillList{
+    margin: 20px 0;
+}
+
+.SkillTop{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.Indicator{
+    display: flex;
+    height: 10px;
+}
+
+.Filled{
+    background-color: #ff9a00;
+}
+
+.Empty{
+    background-color: gray;
+}

@@ -1,0 +1,76 @@
+#Contact{
+    padding: 3rem 10rem 6rem;
+    background-color: #43917B;
+}
+
+.ContactDown{
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    justify-content: center;
+    
+}
+
+.Row1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+.Row1Mobile{
+    display: none;
+    grid-template-columns: 1fr;
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+.Row2{
+    display: grid;
+    grid-gap: 10px;
+    margin: 20px 0;
+}
+
+.Row3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.MaterialInput > div{
+    background-color: white !important;
+}
+ .MaterialInput input{
+     padding: 15px 14px !important;
+ }
+
+.ContactRight{
+    padding : 0rem 0rem 0 4rem;
+    line-height: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.IconContainer a{
+    text-decoration: none;
+}
+
+.IconContainer > *{
+    margin: 0 5px;
+}
+
+.LinkedIn{
+    font-size: 2rem;
+    color: #00037a;
+}
+
+.Github{
+    font-size: 2rem;
+    color: #171515;
+}
+
+.Facebook{
+    font-size: 2rem;
+    color: #0005d3;
+}
+
+.DetailContainer > *{
+    margin: 0 0 25px;
+}

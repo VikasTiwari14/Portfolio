@@ -1,0 +1,160 @@
+/* Primary Color    #3C5859 */
+/* Secondary Color  #DDF6ED */
+/* Tertiary Color   #43917B */
+
+body{
+  background-color: #3C5859;
+  color : #DDF6ED;
+}
+
+.App>*{
+  padding: 0 6rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.topButtonAnchor{
+  text-decoration: none;
+  position: fixed;
+  padding: 0px;
+  right: 70px;
+  bottom: 50px;
+}
+
+.TopBtn{
+  font-size: 2rem;
+  color: #ff9a00;
+}
+
+@media  screen and (max-width: 1024px) {
+    .App>*{
+        padding: 0 3rem !important;
+    }
+    .NavbarRight a button{
+        font-size: 15px;
+        margin: 0 6px !important;
+    }
+    #About, #Skills, #Contact{
+        padding: 2rem 3rem !important;
+    }
+    .Text-5{
+        font-size: 20px  !important;
+    }
+    .Text-4{
+      font-size: 30px  !important;
+    }
+    .AboutContent{
+        font-size: 18px  !important;
+        line-height: 25px  !important;
+    }
+
+    #Services{
+        padding: 2rem 3rem !important;
+    }
+    .ServiceCard:hover > .Content{
+        font-size: 15px !important;
+    }
+    .ServiceCard:hover {
+        height: 28vw !important;
+    }
+    .topButtonAnchor{
+        right: 10px;
+    }
+}
+
+
+@media  screen and (max-width: 800px) {
+    .Row1Mobile{
+        display: grid !important;
+    }
+    .Row1{
+        display: none !important;
+    }
+    .SkillsDown{
+        grid-template-columns: 1fr !important;
+    }
+    #Services{
+        height: fit-content !important;
+    }
+    .ServicesDownMobile{
+        display: grid !important;
+        grid-template-columns: 1fr 1fr;
+    }
+    .ServicesDownMobile .ServiceCard{
+        width: fit-content !important;
+        height: fit-content !important;
+        padding-bottom: 0;
+    }
+    .Content{
+        opacity: 1 !important;
+        color: #3C5859;
+        transform: translateY(-100px) !important;
+    }
+    .ServiceCard:hover > .Content{
+        opacity: 1;
+        color: #3C5859;
+        transform: translateY(0) !important;
+        font-size: 18px !important;
+    }
+    .ServiceCard:hover{
+        height: fit-content !important;
+    }
+    #Services .Text-1{
+        font-size: 20px !important;
+    }
+    .ServicesDown{
+        display: none !important;
+    }
+    .AboutContainer{
+        grid-template-columns: 1fr !important;
+    }
+    .AboutLeft{
+        margin: auto !important;
+    }
+}
+
+@media  screen and (max-width: 600px) {
+    .App>*{
+        padding: 0 1rem !important;
+    }
+    #About, #Skills, #Contact, #Services{
+        padding: 2rem 1rem !important;
+    }
+    .NavbarRight{
+        display: none !important;
+    }
+    .NavbarRightMobile{
+        display: block !important;
+        font-size: 30px !important;
+        cursor: pointer;
+    }
+    .ServicesDownMobile{
+        display: grid !important;
+        grid-template-columns: 1fr !important;
+    }
+    .ContactDown{
+        grid-template-columns: 1fr !important;
+    }
+    .ContactRight{
+        padding: 0 !important;
+        text-align: center;
+    }
+    .Text-2{
+        font-size: 50px !important;
+    }
+    .Text-3 {
+        font-size: 25px !important;
+    }
+    .AboutLeft {
+        height: 15rem !important;
+    }
+    .MobileBreak{
+        display: block !important;
+        height: 0 !important;
+    }
+    .Navbar{
+        justify-content: center !important;
+    }
+}

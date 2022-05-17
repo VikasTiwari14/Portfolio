@@ -1,0 +1,67 @@
+#About{
+    color: #3C5859;
+    padding: 6rem 10rem;
+    background-image: linear-gradient(to right top, #ffffff78, #f9fcff61, #eefaff7d, #e3f8f9, #ddf6ed3d);
+    /* border-radius: 15px; */
+}
+.AboutContainer{
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    align-items: center;
+    grid-gap: 25px;
+}
+
+.MobileBreak{
+    display: none;
+}
+
+.AboutLeft{
+    height: 20rem;
+}
+
+.myImage{
+    height: 100%;
+    /* width: 100%; */
+}
+
+.Text-4{
+    font-size: 40px;
+    
+    
+    padding-bottom: 20px;
+    font-weight: bold;
+}
+
+.Text-5{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.AboutRight{
+    height: 20rem;
+    display: grid;
+}
+
+.AboutRight a{
+    text-decoration: none;
+    margin-bottom: 0 !important;
+}
+
+.AboutContent{
+    /* display: grid; */
+    font-size: 21px;
+    line-height: 30px;
+}
+.AboutContent>*{
+    margin: 6px 0;
+}
+
+.DownloadBtn{
+    background-color: #ff9a00 !important;
+    color: #DDF6ED !important;
+}
+
+.AboutRight .btnContainer{
+    display: flex;
+    flex-direction: column-reverse;
+}

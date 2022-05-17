@@ -1,0 +1,67 @@
+#Services{
+    padding: 6rem 10rem 3rem;
+    height: 70vh;
+}
+
+.ServicesDown{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+}
+.ServicesDownMobile{
+    display:  none;
+    flex-direction: column;
+    gap: 10px;
+}
+.ServiceCard{
+    background-color: #DDF6ED;
+    border-radius: 10px;
+    width: 25%;
+    height: 10vw;
+    padding: 2rem;
+    margin-top: 100px;
+    transition: 0.3s;
+    box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.ImageBox{
+    height: 100%;
+    width: 100%;
+    transform: translateY(-100px);
+}
+.CardImage{
+    width: 100%;
+    /* height: 246px; */
+    border-radius: 5px;
+}
+
+.Content{
+    padding: 0 1rem;
+    text-align: justify;
+    opacity: 0;
+    font-size: 18px;
+    transition: 0.3s;
+}
+#Services .Text-1{
+    color: #ff9a00;
+    text-align: center;
+    padding: 10px 0;
+    font-size: 1.5vw;
+}
+
+.ServiceCard:hover{
+    height: 340px;
+}
+
+.ServiceCard:hover > .Content{
+    opacity: 1;
+    color: #3C5859;
+    transform: translateY(-140px);
+}
+
+@media  screen and (max-width: 1440px) {
+    .ServiceCard:hover > .Content{
+        transform: translateY(-180px);
+    }
+}

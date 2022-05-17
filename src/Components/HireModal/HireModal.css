@@ -1,0 +1,31 @@
+.ReactModal>div>div{
+    width: 50%;
+    margin: auto;
+    color: #3C5859;
+    height: fit-content;
+}
+
+.CloseIcon{
+    position: absolute;
+    right: 20px;
+    color: black;
+}
+
+.ModalFooter{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.ModalBody{
+    display: grid;
+}
+
+.ModalBody > div{
+    display: grid;
+    margin-bottom: 20px;
+    grid-gap: 5px;
+}
+
+.redText{
+    color: red;
+}
